@@ -120,6 +120,7 @@ export interface CatalogItem {
   descriptionPlaintext?: string;
   ecomAvailable?: boolean | null;
   ecomVisibility?: string | null;
+  ecomImageUris?: string[] | null;
 }
 
 export const catalogItemSchema: Schema<CatalogItem> = object({

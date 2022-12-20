@@ -155,4 +155,5 @@ export const catalogItemSchema: Schema<CatalogItem> = object({
   descriptionPlaintext: ['description_plaintext', optional(string())],
   ecomAvailable: ['ecom_available', optional(nullable(boolean()))],
   ecomVisibility: ['ecom_visibility', optional(nullable(string()))],
+  ecomImageUris: ['ecom_image_uris', optional(nullable(string()))],
 });
